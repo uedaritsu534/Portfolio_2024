@@ -3,7 +3,7 @@ body {
     font-family: "Archivo Black", sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 150vh;
 }
 /* Menu bar styles */
 .menu {
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .descriptionContainer {
-    width: 35%;
+    width: 40%;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
@@ -47,4 +47,13 @@ a:hover {
 
 .description {
     font-size: 25px;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.imageContainer img {
+    max-width: 30%;
+    height: auto;
 }
