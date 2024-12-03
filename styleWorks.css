@@ -34,6 +34,7 @@ a:hover {
 .works  {
     text-align: center;
     font-size: 50px;
+    margin-bottom: 50px;
 }
 
 .list {
@@ -44,5 +45,27 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
+    text-align: center;
+}
+
+.image-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.image-box{
+    align-content: center;
+}
+.image1{
+    width: 400px;
+    height: auto;
+}
+.image2{
+    width: 400px;
+    height: auto;
+}
+
+p{
+    font-size: 20px;
     text-align: center;
 }
