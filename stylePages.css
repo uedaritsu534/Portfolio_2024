@@ -3,7 +3,7 @@ body {
     font-family: "Archivo Black", sans-serif;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: auto;
     margin-bottom: 10%;
 }
 /* Menu bar styles */
@@ -30,46 +30,41 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: auto;
-
 }
-.works  {
+.name  {
     text-align: center;
     font-size: 50px;
-    margin-bottom: 50px;
 }
 
-.list {
-    width: 35%;
+.descriptionContainer {
+    width: 50%;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30px;
     text-align: center;
 }
 
-.image-boxes {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    
+.description {
+    font-size: 25px;
 }
-.image-box{
-    align-content: center;
+
+.imageContainer {
+    text-align: center;
 }
-.image1{
-    width: 400px;
+
+.imageContainer img {
+    max-width: 30%;
     height: auto;
 }
 
-p{
-    font-size: 20px;
+.imageContainer2 {
     text-align: center;
+    margin-top: 20px;
 }
-.image-button {
-    background: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
+
+.imageContainer2 img {
+    max-width: 70%;
+    height: auto;
 }
